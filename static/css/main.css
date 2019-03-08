@@ -49,22 +49,54 @@ p {
     font-family: monospace;
 }
 
+.enroll {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact {
+    background: black;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+.arrow {
+    margin: 0;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+i {
+    color: white;
+}
+
+.copy {
+    background: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
     .logo {
         height: 33px;
         width: 80px;
     }
     .logo_bg {
-        width: 300px;
+        width: 250px;
         display: block;
         margin-bottom: 20px;
     }
     .logo_bg_sup {
-        width: 300px;
+        width: 250px;
         display: block;
         margin-bottom: 15px;
     }
     .center {
-        width: 310px;
+        width: 300px;
     }
 }
