@@ -1,3 +1,70 @@
-body {
+body,
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
     background: black;
+}
+
+.logo {
+    height: 41px;
+    width: 100px;
+}
+
+.bg {
+    background: black;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+
+.logo_bg {
+    width: 400px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.logo_bg_sup {
+    width: 400px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #ffffff;
+    font-family: monospace;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        height: 33px;
+        width: 80px;
+    }
+    .logo_bg {
+        width: 300px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .logo_bg_sup {
+        width: 300px;
+        display: block;
+        margin-bottom: 15px;
+    }
+    .center {
+        width: 310px;
+    }
 }
