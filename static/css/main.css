@@ -51,14 +51,25 @@ p {
 
 .enroll {
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .contact {
     background: black;
     padding-top: 30px;
     padding-bottom: 0px;
+}
+
+.contact::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 50%;
+    border-bottom: 1px solid white;
+    margin-top: -10px;
 }
 
 .arrow {
@@ -76,9 +87,15 @@ i {
 
 .copy {
     background: black;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 4px;
     text-align: center;
+    border: none;
+}
+
+.form {
+    width: 550px;
+    height: 715px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -98,5 +115,19 @@ i {
     }
     .center {
         width: 300px;
+    }
+    .contact::after {
+        width: 85%;
+    }
+    .form {
+        width: 380px;
+        height: 715px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .form {
+        width: 315px;
+        height: 720px;
     }
 }
