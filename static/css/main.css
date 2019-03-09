@@ -24,20 +24,20 @@ nav {
     position: absolute;
     right: 20px;
     color: white;
-    font-family: monospace;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
 
 .bg {
     background: white;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 250px;
+    padding-bottom: 250px;
 }
 
 .bg_intro {
     background: black;
-    padding-top: 50px;
-    padding-bottom: 1px;
+    padding-top: 250px;
+    padding-bottom: 60px;
 }
 
 .intro {
@@ -56,7 +56,7 @@ nav {
     background: black;
     border: 1px solid white;
     transition: all 0.8s;
-    font-family: monospace;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     border-radius: 30px;
 }
@@ -73,7 +73,7 @@ nav {
 
 p {
     color: #ffffff;
-    font-family: monospace;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact {
