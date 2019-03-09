@@ -10,32 +10,38 @@ nav {
 }
 
 .logo {
-    height: 41px;
-    width: 100px;
+    height: 78px;
+    width: 290px;
+}
+
+.logo_f {
+    margin-top: 0px;
+    height: 70px;
+    width: 262px;
+}
+
+.logo_nu {
+    position: absolute;
+    right: 20px;
+    color: white;
+    font-family: monospace;
+    font-size: 16px;
 }
 
 .bg {
+    background: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bg_intro {
     background: black;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 1px;
 }
 
-.center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    width: 500px;
-}
-
-.logo_bg {
-    width: 400px;
-    display: block;
-    margin-bottom: 30px;
+.intro {
+    font-size: 20px;
 }
 
 .logo_bg_sup {
@@ -44,15 +50,30 @@ nav {
     margin-bottom: 20px;
 }
 
+.btn_cus {
+    padding: 8px 20px;
+    color: white;
+    background: black;
+    border: 1px solid white;
+    transition: all 0.8s;
+    font-family: monospace;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+.btn_cus:hover,
+.btn_cus:active,
+.btn_cus:focus {
+    color: black;
+    background: white;
+    border: 1px solid black;
+    transform: scale(1.1);
+    outline: none;
+}
+
 p {
     color: #ffffff;
     font-family: monospace;
-}
-
-.enroll {
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 20px;
 }
 
 .contact {
@@ -72,15 +93,6 @@ p {
     margin-top: -10px;
 }
 
-.arrow {
-    margin: 0;
-    position: absolute;
-    top: 95%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
 i {
     color: white;
 }
@@ -93,31 +105,32 @@ i {
     border: none;
 }
 
+.container_cus {
+    width: 450px;
+}
+
 .form {
     width: 550px;
     height: 715px;
+    margin-left: -5px;
 }
 
 @media only screen and (max-width: 600px) {
-    .logo {
-        height: 33px;
-        width: 80px;
-    }
-    .logo_bg {
-        width: 250px;
-        display: block;
-        margin-bottom: 20px;
+    .logo_nu {
+        display: none;
     }
     .logo_bg_sup {
-        width: 250px;
-        display: block;
-        margin-bottom: 15px;
-    }
-    .center {
         width: 300px;
+        display: block;
     }
     .contact::after {
         width: 85%;
+    }
+    .logo_f {
+        margin-top: 0px;
+    }
+    .container_cus {
+        width: 300px;
     }
     .form {
         width: 380px;

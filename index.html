@@ -14,47 +14,80 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
-<body>
-    <nav class="navbar fixed-top">
-        <a class="navbar-brand" href="#">
-            <img class="logo" src="./static/img/favicon.jpg">
+<body class="bg-primary">
+    <nav class="navbar">
+        <a class="navbar-brand m-auto" href="#">
+            <img class="logo" src="./static/img/logo.jpg ">
         </a>
+        <h2 class="logo_nu ">+91 97901 62652<br>+91 80801 14403</h2>
     </nav>
     <div class="bg">
-        <div class="center" align="center">
-            <img class="logo_bg" src="./static/img/logo.jpg">
-            <img class="logo_bg_sup" src="./static/img/bg.jpg">
+        <div align="center">
+            <img class="logo_bg_sup " src="./static/img/bg.jpg ">
+            <button class="btn_cus" data-toggle="modal" data-target="#exampleModal">ENROLL NOW</button>
+        </div>
+    </div>
+    <div class="bg_intro" align="center">
+        <p class="intro"><b>PERSONALITY DESIGN | CAREER COACHING</b></p>
+        <div class="container_cus">
             <p>Redesign yourself and get noticed. Its about time to be the Best form of yourself.</p>
             <p>ELITE offers Personality Redesigning and Career Coaching Platform for indiviuals who want to stand out and excel in today's harsh world of peer competition.</p>
             <p>If you want to be the best you need to be Redesigned by the best.</p>
         </div>
-        <i class="arrow material-icons">arrow_downward</i>
-    </div>
-    <div class="enroll bg-light">
-        <iframe class="form" src="https://docs.google.com/forms/d/e/1FAIpQLSdlc7bJdt-lhMYa2jUxjbfgbRH4ucItximcwJU9JyIkAZmphg/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </div>
     <div class="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 pb-4" align="center">
-                    <i style="font-size:40px;" class="material-icons mb-3">location_on</i>
+        <div class="container ">
+            <!-- <div class="row ">
+                <div class="col-md-3 pb-4 " align="center ">
+                    <img class="logo_f" src="./static/img/logo.jpg ">
+                </div>
+                <div class="col-md-3 pb-4 " align="center ">
+                    <i style="font-size:40px; " class="material-icons mb-3 ">location_on</i>
                     <p>#4/170, KR Building, Egatoor, Chennai 603103.</p>
                 </div>
-                <div class="col-md-6 pb-4" align="center">
-                    <i style="font-size:40px;" class="material-icons mb-3">phone</i>
+                <div class="col-md-3 pb-4 " align="center ">
+                    <i style="font-size:40px; " class="material-icons mb-3 ">phone</i>
                     <p>+91 97901 62652 | +91 80801 14403</p>
                 </div>
+                <div class="col-md-3 pb-4 " align="center ">
+                    <i style="font-size:40px; " class="material-icons mb-3 ">mail</i>
+                    <p>hello@elitecareer.co.in</p>
+                </div>
+            </div> -->
+            <div class="row ">
+                <div class="col-md-4 pb-4 " align="center ">
+                    <i style="font-size:40px; " class="material-icons mb-3 ">location_on</i>
+                    <p>#4/170, KR Building, Egatoor, Chennai 603103.</p>
+                </div>
+                <div class="col-md-4 pb-4 " align="center ">
+                    <i style="font-size:40px; " class="material-icons mb-3 ">phone</i>
+                    <p>+91 97901 62652 | +91 80801 14403</p>
+                </div>
+                <div class="col-md-4 pb-4 " align="center ">
+                    <i style="font-size:40px; " class="material-icons mb-3 ">mail</i>
+                    <p>hello@elitecareer.co.in</p>
+                </div>
             </div>
-
         </div>
     </div>
-    <div class="copy">
+    <div class="copy ">
         <p>ELITE © 2019</p>
     </div>
 
+    <!-- Modal -->
+    <div class="modal fade" align="center" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog mt-5" role="document">
+            <div class="modal-content p-0 m-0 bg-transparent" style="border:none">
+                <div class="modal-body p-0 m-0">
+                    <iframe class="form " src="https://docs.google.com/forms/d/e/1FAIpQLSdlc7bJdt-lhMYa2jUxjbfgbRH4ucItximcwJU9JyIkAZmphg/viewform?embedded=true " frameborder="0 " marginheight="0 " marginwidth="0 ">Loading...</iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- js files -->
-    <script src="./static/js/jquery.min.js"></script>
-    <script src="./static/js/bootstrap.bundle.js"></script>
+    <script src="./static/js/jquery.min.js "></script>
+    <script src="./static/js/bootstrap.bundle.js "></script>
 </body>
 
 </html>
