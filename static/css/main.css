@@ -136,6 +136,14 @@ i {
         width: 380px;
         height: 715px;
     }
+    .bg {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    .bg_intro {
+        padding-top: 200px;
+        padding-bottom: 50px;
+    }
 }
 
 @media only screen and (max-width: 380px) {
